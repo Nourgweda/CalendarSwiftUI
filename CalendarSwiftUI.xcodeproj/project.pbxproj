@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72270972945BDFF004A5915 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72270962945BDFF004A5915 /* DateExtension.swift */; };
+		C72270992945BF63004A5915 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72270982945BF63004A5915 /* DateValue.swift */; };
+		C722709C2945BFCD004A5915 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722709B2945BFCD004A5915 /* CalendarViewModel.swift */; };
+		C722709E2945D00F004A5915 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722709D2945D00F004A5915 /* Task.swift */; };
 		C74686D52941F40D00D1FE39 /* CalendarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74686D42941F40D00D1FE39 /* CalendarSwiftUIApp.swift */; };
 		C74686D72941F40D00D1FE39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74686D62941F40D00D1FE39 /* ContentView.swift */; };
 		C74686D92941F41000D1FE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74686D82941F41000D1FE39 /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		C74686E62941F41000D1FE39 /* CalendarSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74686E52941F41000D1FE39 /* CalendarSwiftUITests.swift */; };
 		C74686F02941F41000D1FE39 /* CalendarSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74686EF2941F41000D1FE39 /* CalendarSwiftUIUITests.swift */; };
 		C74686F22941F41000D1FE39 /* CalendarSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74686F12941F41000D1FE39 /* CalendarSwiftUIUITestsLaunchTests.swift */; };
+		C7DC4657294231BC00391229 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4656294231BC00391229 /* Home.swift */; };
+		C7DC465B29423ABE00391229 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC465A29423ABE00391229 /* CustomDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C72270962945BDFF004A5915 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C72270982945BF63004A5915 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		C722709B2945BFCD004A5915 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		C722709D2945D00F004A5915 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C74686D12941F40D00D1FE39 /* CalendarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74686D42941F40D00D1FE39 /* CalendarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSwiftUIApp.swift; sourceTree = "<group>"; };
 		C74686D62941F40D00D1FE39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		C74686EB2941F41000D1FE39 /* CalendarSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74686EF2941F41000D1FE39 /* CalendarSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSwiftUIUITests.swift; sourceTree = "<group>"; };
 		C74686F12941F41000D1FE39 /* CalendarSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7DC4656294231BC00391229 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C7DC465A29423ABE00391229 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C72270952945BDE5004A5915 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C72270962945BDFF004A5915 /* DateExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C722709A2945BFB6004A5915 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C722709B2945BFCD004A5915 /* CalendarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C74686C82941F40D00D1FE39 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,10 @@
 		C74686D32941F40D00D1FE39 /* CalendarSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C722709A2945BFB6004A5915 /* ViewModel */,
+				C72270952945BDE5004A5915 /* Helpers */,
+				C7DC4655294231AC00391229 /* Model */,
+				C7DC4654294231A600391229 /* View */,
 				C74686D42941F40D00D1FE39 /* CalendarSwiftUIApp.swift */,
 				C74686D62941F40D00D1FE39 /* ContentView.swift */,
 				C74686D82941F41000D1FE39 /* Assets.xcassets */,
@@ -125,6 +157,24 @@
 				C74686F12941F41000D1FE39 /* CalendarSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = CalendarSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		C7DC4654294231A600391229 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC4656294231BC00391229 /* Home.swift */,
+				C7DC465A29423ABE00391229 /* CustomDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7DC4655294231AC00391229 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C72270982945BF63004A5915 /* DateValue.swift */,
+				C722709D2945D00F004A5915 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C722709E2945D00F004A5915 /* Task.swift in Sources */,
+				C7DC465B29423ABE00391229 /* CustomDatePicker.swift in Sources */,
+				C72270972945BDFF004A5915 /* DateExtension.swift in Sources */,
 				C74686D72941F40D00D1FE39 /* ContentView.swift in Sources */,
+				C72270992945BF63004A5915 /* DateValue.swift in Sources */,
+				C7DC4657294231BC00391229 /* Home.swift in Sources */,
 				C74686D52941F40D00D1FE39 /* CalendarSwiftUIApp.swift in Sources */,
+				C722709C2945BFCD004A5915 /* CalendarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalendarSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U98MB87JNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalendarSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U98MB87JNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
